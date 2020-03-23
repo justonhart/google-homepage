@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <style>
     img{
+        padding-bottom: 30px;
+        display: block;
+        margin: auto;
+    }
+    body{
         padding-top: 7.5%;
     }
+    .sb{
+        display: block;
+        margin: auto;
+        border: solid;
+        border-color:lightgrey;
+        border-radius: 2rem; 
+        border-width: 1px;
+        padding: 10px;
+        width: 22.5%;
+    }
+    .sb:hover{
+        box-shadow: 0 0 0.1rem grey;
+    }
+    .sb:focus-within{
+        box-shadow: 0 0 0.1rem grey;
+    }
+    .sbinput{
+        display: block;
+        margin: auto;
+        width: 90%;
+        border: none;
+        font-size: 12pt;
+    }
+    .sbinput:focus{
+        outline:none;
+    }
+    .bp{
+        padding: 40px;
+        text-align: center;
+    }
+    .btn{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px 11px;
+        font-size: 11pt;
+        color: rgb(117, 116, 116);
+        background-color: rgb(243, 243, 243);
+        border: none;
+        border-radius: 5%;
+    }
 </style>
-
+<head>
+    <title>Google</title>
+</head>
 <header>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 </header>
-<body></body>
+<div class="sb">
+    <input class="sbinput" type="text">
+</div>
+<div class="bp">
+    <input class="btn" type="button" value="Google Search">
+    <input class="btn" type="button" value="I'm feeling lucky">
+</div>
+
 <footer></footer>
