@@ -1,0 +1,1 @@
+This project is a small assignment from the Odin Project. I will be attempting to recreate the Google homepage using HTML & CSS.
