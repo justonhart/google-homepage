@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <style>
     img{
+        padding-top: 6.5%;
         padding-bottom: 30px;
         display: block;
         margin: auto;
     }
     body{
-        padding-top: 7.5%;
+        
     }
     .sb{
         display: block;
@@ -48,13 +49,55 @@
         border: none;
         border-radius: 5%;
     }
+
+    ul{
+        margin:0;
+        padding: 15px 0px;
+        overflow: hidden;
+    }
+
+    li{
+        display: block;
+        float: left;
+        margin: auto;
+        font-size: 10pt;
+        font-family: Arial, sans-serif;
+    }
+
+    li a{
+        padding: 10px;
+        text-decoration: none;
+        color:rgb(66, 66, 66);
+    }
+    li a:hover{
+        text-decoration: underline;
+    }
+    li a:visited{
+        color:rgb(66, 66, 66);
+    }
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 50px;
+        width: 100%;
+        background-color: rgb(243, 243, 243);
+    }
 </style>
 <head>
-    <title>Google</title>
+    <title>Fake Google</title>
 </head>
 <header>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <ul>
+        <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+        <li style="float: right;" ></li>
+        <li style="float: right;"><a href="https://www.google.com/intl/en/about/products?tab=wh"></a></li>
+        <li style="float: right;" ><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+        <li style="float: right;"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+    </ul>
 </header>
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 <div class="sb">
     <input class="sbinput" type="text">
 </div>
@@ -63,4 +106,13 @@
     <input class="btn" type="button" value="I'm feeling lucky">
 </div>
 
-<footer></footer>
+<footer>
+    <ul>
+        <li><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+        <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+        <li style="float:right;"><a>Settings</a></li>
+        <li style="float:right;"><a>Terms</a></li>
+        <li style="float:right;"><a>Privacy</a></li>
+    </ul>
+</footer>
