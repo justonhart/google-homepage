@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <style>
-    img{
+    #logo{
         padding-top: 6.5%;
         padding-bottom: 30px;
         display: block;
@@ -83,6 +83,20 @@
         width: 100%;
         background-color: rgb(243, 243, 243);
     }
+    footer li{
+        font-size: 11pt;
+    }
+    .signin{
+        background-color: #4285f4;
+        color: white;
+        border: none;
+        padding: 10px 11px;
+        font-weight: bold;
+        border-radius: 5%;
+    }
+    .signin:visited{
+        color: white;
+    }
 </style>
 <head>
     <title>Fake Google</title>
@@ -91,13 +105,13 @@
     <ul>
         <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
         <li><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
-        <li style="float: right;" ></li>
-        <li style="float: right;"><a href="https://www.google.com/intl/en/about/products?tab=wh"></a></li>
+        <li style="float: right;" ><a class="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></li>
+        <li style="float: right;"><a href="https://www.google.com/intl/en/about/products?tab=wh"><img src="./images/apps.png"></a></li>
         <li style="float: right;" ><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
         <li style="float: right;"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
     </ul>
 </header>
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+<img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 <div class="sb">
     <input class="sbinput" type="text">
 </div>
@@ -112,7 +126,7 @@
         <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
         <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
         <li style="float:right;"><a>Settings</a></li>
-        <li style="float:right;"><a>Terms</a></li>
-        <li style="float:right;"><a>Privacy</a></li>
+        <li style="float:right;"><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+        <li style="float:right;"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
     </ul>
 </footer>
